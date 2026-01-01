@@ -474,7 +474,7 @@ const translations = {
             helpCenter: "Centro de Ayuda",
             terms: "Términos de Servicio",
             privacy: "Política de Privacidad",
-            copyright: "© 2025 Quantum Engine. Todos los derechos reservados."
+            copyright: "© 2026 Quantum Engine. Todos los derechos reservados."
         },
         faq: {
             subtitle: "Preguntas Frecuentes",
@@ -618,7 +618,7 @@ const translations = {
             helpCenter: "Help Center",
             terms: "Terms of Service",
             privacy: "Privacy Policy",
-            copyright: "© 2025 Quantum Engine. All rights reserved."
+            copyright: "© 2026 Quantum Engine. All rights reserved."
         },
         faq: {
             subtitle: "Frequently Asked Questions",
@@ -762,7 +762,7 @@ const translations = {
             helpCenter: "Central de Ajuda",
             terms: "Termos de Serviço",
             privacy: "Política de Privacidade",
-            copyright: "© 2025 Quantum Engine. Todos os direitos reservados."
+            copyright: "© 2026 Quantum Engine. Todos os direitos reservados."
         },
         faq: {
             subtitle: "Perguntas Frequentes",
