@@ -925,6 +925,7 @@ ul {
     align-items: center;
     justify-content: center;
     opacity: 0.9;
+    z-index: 2;
 }
 
 .ceo__content {
@@ -1299,6 +1300,21 @@ ul {
     
     .ceo__grid {
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2.5rem;
+    }
+    
+    .ceo__card {
+        padding-top: 4.5rem;
+    }
+    
+    .ceo__badges {
+        top: 1.25rem;
+        right: 1.25rem;
+    }
+    
+    .ceo__crown {
+        top: 1.25rem;
+        left: 1.25rem;
     }
 }
 
@@ -1307,6 +1323,7 @@ ul {
     .home__container {
         grid-template-columns: 1fr;
         text-align: center;
+        gap: 3rem;
     }
     
     .home__image {
@@ -1334,6 +1351,7 @@ ul {
     
     .about__container {
         grid-template-columns: 1fr;
+        gap: 3rem;
     }
     
     .about__image {
@@ -1343,15 +1361,32 @@ ul {
     
     .ceo__grid {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 2.5rem;
+    }
+    
+    .ceo__card {
+        padding: 2.5rem;
+        padding-top: 4.5rem;
+    }
+    
+    .ceo__badges {
+        top: 1.25rem;
+        right: 1.25rem;
+    }
+    
+    .ceo__crown {
+        top: 1.25rem;
+        left: 1.25rem;
     }
     
     .features__grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
     }
     
     .products__grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
     }
     
     .footer__container {
@@ -1520,6 +1555,30 @@ ul {
     /* Team */
     .ceo__card {
         padding: 2rem;
+        padding-top: 4rem;
+    }
+    
+    .ceo__badges {
+        top: 1rem;
+        right: 1rem;
+        gap: 0.5rem;
+    }
+    
+    .ceo__badge {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.7rem;
+    }
+    
+    .ceo__crown {
+        top: 1rem;
+        left: 1rem;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .ceo__crown svg {
+        width: 16px;
+        height: 16px;
     }
     
     .ceo__avatar {
@@ -1686,6 +1745,32 @@ ul {
     /* Team */
     .ceo__card {
         padding: 1.5rem;
+        padding-top: 3.5rem;
+    }
+    
+    .ceo__badges {
+        top: 0.75rem;
+        right: 0.75rem;
+        gap: 0.4rem;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .ceo__badge {
+        padding: 0.35rem 0.7rem;
+        font-size: 0.65rem;
+    }
+    
+    .ceo__crown {
+        top: 0.75rem;
+        left: 0.75rem;
+        width: 16px;
+        height: 16px;
+    }
+    
+    .ceo__crown svg {
+        width: 14px;
+        height: 14px;
     }
     
     .ceo__avatar {
@@ -1782,11 +1867,50 @@ ul {
     
     .ceo__card {
         padding: 1.25rem;
+        padding-top: 3rem;
+    }
+    
+    .ceo__badges {
+        top: 0.5rem;
+        right: 0.5rem;
+        gap: 0.35rem;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .ceo__badge {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.6rem;
+        border-radius: 0.4rem;
+    }
+    
+    .ceo__crown {
+        top: 0.5rem;
+        left: 0.5rem;
+        width: 14px;
+        height: 14px;
+    }
+    
+    .ceo__crown svg {
+        width: 12px;
+        height: 12px;
     }
     
     .ceo__avatar {
         width: 100px;
         height: 100px;
+    }
+    
+    .ceo__name {
+        font-size: 1.25rem;
+    }
+    
+    .ceo__role {
+        font-size: 0.875rem;
+    }
+    
+    .ceo__description {
+        font-size: 0.85rem;
     }
     
     .nav__menu {
