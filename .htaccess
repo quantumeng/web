@@ -1,0 +1,17 @@
+# Habilitar el motor de reescritura
+RewriteEngine On
+
+# Redirigir URLs con .html a versiones sin extensión (301 redirect permanente)
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1? [NC,L,R=301]
+
+# Si la solicitud es para un directorio o archivo que existe, servir directamente
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Si la solicitud no termina con una extensión de archivo, intentar agregar .html internamente
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# Redirigir la raíz a index (sin extensión)
+DirectoryIndex index.html
